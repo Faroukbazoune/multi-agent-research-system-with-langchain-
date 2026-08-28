@@ -12,5 +12,3 @@ lxml
 trafilatura
 readability-lxml
 dotenv
-
-wiw
