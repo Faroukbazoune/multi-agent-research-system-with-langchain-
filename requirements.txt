@@ -12,3 +12,4 @@ lxml
 trafilatura
 readability-lxml
 dotenv
+rich
