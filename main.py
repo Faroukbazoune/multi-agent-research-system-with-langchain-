@@ -1,4 +1,4 @@
-from src.tools.tools import tavily_search
+from src.tools.tools import tavily_search ,web_scrap
 
-output = tavily_search("What is the capital of France?")
-print (output)
+output = web_scrap.invoke("https://www.britannica.com/place/France")
+print(output)
