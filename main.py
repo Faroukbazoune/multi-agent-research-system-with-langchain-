@@ -1,4 +1,4 @@
 from src.tools.tools import tavily_search ,web_scrap
+from src.pipelines.pipelines import run_search_pipeline
 
-output = web_scrap.invoke("https://www.britannica.com/place/France")
-print(output)
+state = run_search_pipeline("cristiano ronaldo")
