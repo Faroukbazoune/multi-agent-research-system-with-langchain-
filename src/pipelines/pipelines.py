@@ -20,7 +20,7 @@ def run_search_pipeline(topic:str) -> dict:
 
     print("="*50)
     print("Scraping Agent is working . . . ")
-    print("="*52)
+    print("="*50)
 
     search_agent  = create_scraping_agent()
     result = search_agent.invoke({
