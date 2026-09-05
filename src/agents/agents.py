@@ -8,9 +8,8 @@ import os
 from langchain_groq import ChatGroq
 
 load_dotenv(find_dotenv())
-
 groq_model = ChatGroq(model_name="qwen/qwen3.6-27b")
-gemini_model = ChatGoogleGenerativeAI(model="gemini-3.7-flash", temperature=0.0)
+gemini_model = ChatGoogleGenerativeAI(model="gemini-3.8-flash", temperature=0.0)
 
 def create_search_agent():
 
