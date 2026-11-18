@@ -15,11 +15,7 @@ def run_search_pipeline(topic: str) -> dict:
 
     search_agent = create_search_agent()
     result = search_agent.invoke(
-        {
-            "messages": [
-                ("human", f"find the best reliablel informations about {topic} ")
-            ]
-        }
+        {"messages": [("human", f"find the best reliablel informations about {topic}")]}
     )
     state["search_result"] = result["messages"][-1].text
 
